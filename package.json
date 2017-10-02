@@ -16,7 +16,6 @@
   "author": "shoulderkarlsson",
   "license": "ISC",
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -24,6 +23,7 @@
     "skycons": "^1.0.0"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "babel-cli": "^6.26.0",
     "babel-preset-react": "^6.24.1"
   }
