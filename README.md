@@ -1,50 +1,38 @@
-# Skycons-Component
+# skycons-component
+A simple to use component specially made for the darksky API.
 
-
-## Installation  
+## Get started
 
 	yarn add skycons-component
 	npm install skycons-component
 
 
-## What is this?  
-This is a configurable react component that is easy to use.
-It was mainly done for presenting icons that corresponds
-to the response values retrieved from darksky weather api.
-
 ## Usage
+The component comes with properties that allows you to customize according to your desire.
+The properties that are supported by the component is the following.
 
-### Component Properties
-The component accept properties in order to make it
-customizable. Each prop **except** the icon prop
-has a default value.
+**animate** - All the darksky icons comes with animations. This allows you to controll the animation. Default value for this is true. Do disable the animation, pass false to the component.
 
-|prop name|default|description|
-|---|---|---|
-|animate|false|Boolean representing whether the component should
-be animated or not.|
-|icon||String representing which icon should be presented.
-The icons allowed are the once specified in the skycons lib|
-|iconColor|black|String representing the color of the icon.|
+**icon** - The icon that should be presented. The component is made in such way that the values grabbed from the skycons api can be passed directly to the component. There is no default value for this propertie.
 
+**iconColor** - This represents the color of the icon. Default is black.
 
-### Basic Example
+**style** - This allows you to style your component with plain css.
+
+## Basic Example
+
 ```javascript
-
-// import export style
 import Skycons from 'skycons-component'
-
-// require style
 const Skycons = require('skycons-component')
 
-const WeatherPresentation = () =>
-	<div>
-		<Skycons 
-			icon='rain'
-			colorIcon='purple'
-			animate={true}
-			style={{ width: 128, height: 128}}
-		/>
-	</div>
+const SomeComponent = props =>
+    <div>
+      <Skycons
+      	animate={false}
+	iconColor='orange'
+	style={{width: 64, height: 64}}
+	icon='rain'
+      />
+    </div>
 
 ```
