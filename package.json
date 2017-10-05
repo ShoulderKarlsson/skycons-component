@@ -1,6 +1,6 @@
 {
   "name": "skycons-component",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Easy to use component with support for skycons weather icons",
   "main": "dist/index.js",
   "scripts": {
