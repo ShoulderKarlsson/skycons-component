@@ -27,12 +27,12 @@ const Skycons = require('skycons-component')
 
 const SomeComponent = props =>
     <div>
-      <Skycons
-      	animate={false}
-	iconColor='orange'
-	style={{width: 64, height: 64}}
-	icon='rain'
-      />
+        <Skycons
+      	  animate={false}
+	  iconColor='orange'
+	  style={{width: 64, height: 64}}
+	  icon='rain'
+       	/>
     </div>
 
 ```
