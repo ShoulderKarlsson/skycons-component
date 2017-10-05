@@ -14,7 +14,7 @@ const _Skycons = SkyconsModule(window)
 const enhance = compose(
   defaultProps({
     defaultColor: 'black',
-    animate: false,
+    animate: true,
     icon: '',
   }),
   setPropTypes({
