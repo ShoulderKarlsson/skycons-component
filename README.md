@@ -8,7 +8,7 @@ A simple to use component specially made for the darksky API.
 
 
 ## Usage
-The component comes with properties that allows you to customize according to your desire.
+The component comes with properties that allows you to customize the component according to your desire.
 The properties that are supported by the component is the following.
 
 **animate** - All the darksky icons comes with animations. This allows you to controll the animation. Default value for this is true. Do disable the animation, pass false to the component.
