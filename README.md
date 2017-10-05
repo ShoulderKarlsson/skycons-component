@@ -25,14 +25,17 @@ The properties that are supported by the component is the following.
 import Skycons from 'skycons-component'
 const Skycons = require('skycons-component')
 
-const SomeComponent = props =>
-    <div>
-        <Skycons
-      	  animate={false}
-	  iconColor='orange'
-	  style={{width: 64, height: 64}}
-	  icon='rain'
-       	/>
-    </div>
+const SomeComponent = props => {
+	return (
+	    <div>
+        	<Skycons
+      	  	 animate={false}
+	  	 iconColor='orange'
+	  	 style={{width: 64, height: 64}}
+	  	 icon='rain'
+       		/>
+    	    </div>
+	)
+}
 
 ```
