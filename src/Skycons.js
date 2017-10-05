@@ -40,7 +40,7 @@ const enhance = compose(
       })
       skycons.add(ReactDOM.findDOMNode(this), icon)
 
-      // Starting animation...
+      // Starting animation if animate is set to true
       animate && skycons.play()
     }
   }),
