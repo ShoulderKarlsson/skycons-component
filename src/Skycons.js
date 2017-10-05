@@ -42,7 +42,7 @@ const enhance = compose(
 
       // Starting animation if animate is set to true
       animate && skycons.play()
-    }
+    },
   }),
 )
 
