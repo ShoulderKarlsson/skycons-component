@@ -31,7 +31,7 @@ var _Skycons = (0, _skycons2.default)(window);
 
 var enhance = (0, _recompose.compose)((0, _recompose.defaultProps)({
   defaultColor: 'black',
-  animate: false,
+  animate: true,
   icon: ''
 }), (0, _recompose.setPropTypes)({
   animate: _propTypes2.default.bool,
@@ -50,7 +50,7 @@ var enhance = (0, _recompose.compose)((0, _recompose.defaultProps)({
     });
     skycons.add(ReactDOM.findDOMNode(this), icon);
 
-    // Starting animation...
+    // Starting animation if animate is set to true
     animate && skycons.play();
   }
 }));
