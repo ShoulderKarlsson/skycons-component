@@ -1,6 +1,8 @@
 # skycons-component
 A simple to use component specially made for the darksky API.
 
+**Note - ** React version 16 was used for this component.
+
 ## Get started
 
 	yarn add skycons-component
