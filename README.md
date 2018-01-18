@@ -1,7 +1,6 @@
 # skycons-component
 A simple to use component specially made for the darksky API.
 
-**Note -** React version 16 was used for this component.
 
 ## Get started
 
@@ -15,7 +14,7 @@ The properties that are supported by the component is the following.
 
 **animate** - All the darksky icons comes with animations. This allows you to controll the animation. Default value for this is true. Do disable the animation, pass false to the component.
 
-**icon** - The icon that should be presented. The component is made in such way that the values grabbed from the skycons api can be passed directly to the component. There is no default value for this propertie.
+**icon** - The icon that should be presented. The component is made in such way that the values grabbed from the skycons api can be passed directly to the component. There is no default value for this property.
 
 **iconColor** - This represents the color of the icon. Default is black.
 
